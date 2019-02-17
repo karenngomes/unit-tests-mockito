@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ee47223-6f09-4111-8a5a-dbb105188343" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/unit-tests-mockito.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/karenngomes/tests/mockito/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karenngomes/tests/mockito/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karenngomes/tests/mockito/CalculatorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karenngomes/tests/mockito/MathApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karenngomes/tests/mockito/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/karenngomes/tests/mockito/Tester.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/karenngomes/tests/mockito/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550443857777" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550444549119" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -236,7 +231,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550383965515</updated>
       <workItem from="1550383969406" duration="2934000" />
-      <workItem from="1550442019430" duration="1386000" />
+      <workItem from="1550442019430" duration="2077000" />
     </task>
     <servers />
   </component>
@@ -259,9 +254,12 @@
     <history-entry file="Tester - 2019.02.17 at 19h 48m 19s.xml">
       <configuration name="Tester" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Tester - 2019.02.17 at 20h 00m 36s.xml">
+      <configuration name="Tester" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4320000" />
+    <option name="totallyTimeSpent" value="5011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="716" y="25" width="650" height="743" extended-state="4" />
@@ -350,8 +348,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/karenngomes/tests/mockito/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

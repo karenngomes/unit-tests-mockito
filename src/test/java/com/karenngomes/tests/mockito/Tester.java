@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Iterator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -27,6 +28,13 @@ public class Tester {
         assertEquals("Mockito rocks", result);
     }
 
-    
+    @Test
+    public void testReturnValueInDependentOnMethodParameter() {
+        Comparable<Integer> c = mock(Comparable.class);
+        when(c.compareTo(anyInt())).thenReturn(-1);
+
+        assertEquals(-1, c.compareTo(9));
+    }
+
 
 }
