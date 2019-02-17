@@ -2,6 +2,8 @@ package com.karenngomes.tests.mockito;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Iterator;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -15,4 +17,16 @@ public class Tester {
         //assert
         assertEquals(1, c.compareTo("Mockito"));
     }
+
+    @Test
+    public void testMoreThanOneReturnValue() {
+        Iterator<String> i = mock(Iterator.class);
+        when(i.next()).thenReturn("Mockito").thenReturn("rocks");
+        String result = i.next() + " " + i.next();
+
+        assertEquals("Mockito rocks", result);
+    }
+
+    
+
 }

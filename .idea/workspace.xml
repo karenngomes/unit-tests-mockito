@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ee47223-6f09-4111-8a5a-dbb105188343" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karenngomes/tests/mockito/CalculatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/karenngomes/tests/mockito/MathApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/unit-tests-mockito.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/karenngomes/tests/mockito/MockitoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karenngomes/tests/mockito/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karenngomes/tests/mockito/MockitoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit-tests-mockito.iml" beforeDir="false" afterPath="$PROJECT_DIR$/unit-tests-mockito.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/karenngomes/tests/mockito/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/karenngomes/tests/mockito/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karenngomes/tests/mockito/CalculatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karenngomes/tests/mockito/MathApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karenngomes/tests/mockito/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/karenngomes/tests/mockito/Tester.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,41 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/karenngomes/tests/mockito/CalculatorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/karenngomes/tests/mockito/MathApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/karenngomes/tests/mockito/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="270">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550443430486" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550443857777" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -268,7 +236,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550383965515</updated>
       <workItem from="1550383969406" duration="2934000" />
-      <workItem from="1550442019430" duration="786000" />
+      <workItem from="1550442019430" duration="1386000" />
     </task>
     <servers />
   </component>
@@ -282,15 +250,24 @@
     <history-entry file="MathApplicationTester - 2019.02.17 at 19h 38m 51s.xml">
       <configuration name="MathApplicationTester" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Tester - 2019.02.17 at 19h 41m 11s.xml">
+      <configuration name="Tester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tester - 2019.02.17 at 19h 48m 08s.xml">
+      <configuration name="Tester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tester - 2019.02.17 at 19h 48m 19s.xml">
+      <configuration name="Tester" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3720000" />
+    <option name="totallyTimeSpent" value="4320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="716" y="25" width="650" height="743" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27294493" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.44536424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -299,7 +276,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,8 +350,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/karenngomes/tests/mockito/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="270">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
